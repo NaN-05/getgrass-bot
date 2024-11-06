@@ -9,6 +9,7 @@ const PROXY_SOURCES = {
   'SERVER 4': 'https://files.ramanode.top/airdrop/grass/server_4.txt',
   'SERVER 5': 'https://files.ramanode.top/airdrop/grass/server_5.txt',
   'SERVER 6': 'https://files.ramanode.top/airdrop/grass/server_6.txt',
+  'NGARET 7': 'https://github.com/monosans/proxy-list/raw/main/proxies/all.txt',
 };
 
 async function fetchProxies(url) {
