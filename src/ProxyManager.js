@@ -3,8 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'NGARET': 'https://github.com/monosans/proxy-list/raw/main/proxies/all.txt',
-  'NYETROM': 'https://github.com/NaN-05/proxy/raw/main/full',
+  'NGARET': 'https://github.com/NaN-05/proxy/raw/main/ngaret',
 };
 
 async function fetchProxies(url) {
