@@ -4,8 +4,6 @@ const fs = require('fs');
 
 const PROXY_SOURCES = {
   'NGARET': 'https://github.com/NaN-05/proxy/raw/main/ngaret',
-  'NGARET 1': 'https://github.com/NaN-05/proxy/raw/main/ngaret1',
-  'NGARET 2': 'https://github.com/NaN-05/proxy/raw/main/ngaret2',
 };
 
 async function fetchProxies(url) {
