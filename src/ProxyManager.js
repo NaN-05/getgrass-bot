@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'NGARET': 'https://github.com/NaN-05/proxy/raw/main/ngaret',
+  'NGARET': 'https://github.com/NaN-05/proxy/raw/main/ngaret.txt',
 };
 
 async function fetchProxies(url) {
