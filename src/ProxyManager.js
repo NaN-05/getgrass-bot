@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'Ngaret': 'https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text','https://github.com/monosans/proxy-list/raw/main/proxies/all.txt',
+  'Ngaret': 'https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text','https://github.com/monosans/proxy-list/raw/main/proxies/all.txt'
 };
 
 async function fetchProxies(url) {
