@@ -49,6 +49,8 @@ async function selectProxySource(inquirer) {
         default: 'proxy.txt',
       },
     ]);
+
+    console.log('');
     return { type: 'file', source: filename };
   } else if (source === 'NO PROXY') {
     return { type: 'none' };
